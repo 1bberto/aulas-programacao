@@ -1,0 +1,350 @@
+# DB projects
+*.dbmdl
+*.jfm
+*.publish.xml
+
+# Web.config and supporting files.
+Web/Web.config
+Web/Archived.*.config.*
+Web/AppSettings.private.config
+Web/AppSettings.public.config
+Web/AppSettings.config
+Web/ConnectionStrings.config
+Web/Saml.config
+Web/transforms.yml
+Web/*.Transform.xml
+app.config
+
+# Detect Secrets Basline
+.secrets.baseline
+
+**/*.log
+
+**/bin/**/*
+**/obj/**/*
+**/Genome.CMS/**/packages/**/*
+**/VSProjects/**/packages/**/*
+**/FixCSProj/**/packages/**/*
+*/Web/bin/*
+.DS_Store
+_ReSharper.
+attributionlog/*
+Automodel.exe.config
+Backup/
+Cron/*.log
+Cron/Logs/
+Cron/cron.csproj.user
+Cron/obj
+D_*.cs
+[Dd]ata/*
+DateDimension*.cs
+Extranet/..publish.bat.log
+Extranet/administration/*
+Extranet/bin/*
+Extranet/RadControls/*
+ExtranetCache
+F_*.cs
+Genome.suo
+LastHead.sha
+make.txt
+Model/cache.xml
+Model/NotEditable
+Model/NotEditable/**/*
+Model/obj
+Model2/Model.csproj
+nunit-result.xml
+postlogs/*
+signalr-cache
+Web/bin/*
+Web/nas-temp
+!Web/bin/dependencies
+Web/obj
+Web/web.csproj.user
+Web/local-instance/*
+Web/local/files/videos
+WebCache
+[Ww]eb/[Ww]eb.config
+Genome.Caching/obj/*
+Genome.SignalR/bin/*
+Genome.SignalR/obj/*
+Genome.Tests/bin/*
+Genome.Tests/obj/*
+Genome.Tests/NodeJS/config.js
+Genome.Tests/CodeTemplates/Scaffolders/NodeTest/NodeTestTemplate.cs.t4
+Genome.Tests/CodeTemplates/Scaffolders/ApiTest/ApiTestTemplate.cs.t4
+QA/APITesting/SenseiOS.API.Domain/bin/*
+QA/APITesting/SenseiOS.API.Domain/obj/*
+QA/CommonHelpers/BaseHelpers/bin/*
+QA/CommonHelpers/BaseHelpers/obj/*
+QA/TestingEngine/TestingEngine/bin/*
+QA/TestingEngine/TestingEngine/obj/*
+QA/UITesting/SenseiOS.UI.Domain/bin/*
+QA/UITesting/SenseiOS.UI.Domain/obj/*
+QA/UITesting/SenseiOS.UI.Tests/bin/*
+QA/UITesting/SenseiOS.UI.Tests/obj/*
+*.suo
+*.cso
+*.user
+
+*.orig
+*.swp
+*.swo
+#*.BASE.*
+#*.LOCAL.*
+#*.REMOTE.*
+*.sublime-workspace
+
+WebSrc/sensei-kit/senseiKit.config.js
+*~
+Category.png
+Fixture.png
+gallioout.txt
+Invoker.png
+mbunit*.html
+mbuniticon.gif
+mbunitlogo.png
+mbunitout.txt
+Populator.png
+publish.bat.log
+test-report-20*
+Test.png
+[Tt]humbs.db
+changelog.txt
+Web/lib/customized/angular/all-angular-mobile.minify.js
+Web/lib/customized/angular/all-angular-prereqs.minify.js
+Web/lib/customized/angular/all-angular.minify.js
+Web/tickets/js/tickets.minify.js
+Web/grunt
+Web/dist
+Web/dist/**/*
+node_modules
+Web/local/files/Academy/Weekly Review QandA/Sequence01.mp4
+Web/local/files/Academy/Weekly Review QandA/Sequence02.mp4
+Web/local/files/Academy/Weekly Review QandA/Sequence03.mp4
+Web/local/files/Academy/Weekly Review QandA/Sequence04.mp4
+Web/local/files/Academy/Weekly Review QandA/Sequence05.mp4
+Web/local/files/Academy/Weekly Review QandA/Sequence06.mp4
+Web/local/files/Academy/Crossing the Border/Sequence01.mp4
+Web/local/files/Academy/Crossing the Border/Sequence02.mp4
+Web/local/files/Academy/Crossing the Border/Sequence03.mp4
+Web/local/files/Academy/Crossing the Border/Sequence04.mp4
+Web/local/files/Academy/Crossing the Border/Sequence05.mp4
+Web/local/files/Academy/Crossing the Border/Sequence06.mp4
+Web/local/files/Academy/Crossing the Border/Sequence07.mp4
+publish - Copy.bat - broken
+VSProjects/SQLExtension/bin/Debug
+VSProjects/SQLExtension/obj
+VSProjects/SQLExtension/SQLExtension.v11.suo
+Api/obj
+Caching/obj
+SignalR/obj
+UpgradeLog*
+Genome.Caching/obj/
+Genome.Tests/obj
+Genome.Tests/bin
+Api/bin
+Caching/bin
+Model/bin
+SignalR/bin
+/bin
+_UpgradeReport*
+NetSuiteTEST/*
+VSProjects/SQLExtension/bin/
+Web/login-hostname.log
+Web/NLog.txt
+Web/NLog.config
+GChatStatusWinService/bin/*
+GChatStatusWinService/obj/*
+VSProjects/GChatStatusWinService/bin/
+VSProjects/GChatStatusWinService/obj/
+Web/assets/
+assets.cfg
+.sass-cache/*
+Web/global/stylesheets/base/_sprites.scss
+WebWinLogin/bin/
+WebWinLogin/obj/
+Cron/usfs/Logs/
+Web/logs/
+Web/local/files/Alliance_Coupon 2015.pdf
+Web/local/files/PPN Alliance .pdf
+Web/local/files/PPN Loblaws.pdf
+Web/local/images/awesome (1).jpg
+Web/local/images/clinical trials (1).jpg
+Web/local/images/epatients (1).jpg
+Web/local/images/greg (1).jpg
+Web/local/images/imagine (1).jpg
+Web/local/images/Jack (1).jpg
+Web/local/images/Klick it Forward (1).jpg
+Web/local/images/lee (1).jpg
+Web/local/images/lee2 (1).jpg
+Web/local/images/lee3 (1).jpg
+Web/local/images/Lisa (1).jpg
+Web/local/images/old spice (1).jpg
+Web/local/images/Simon (1).jpg
+Web/local/files/HotHouse.mp4
+Web/local/files/Klick_ePatients_TH2014.mp4
+Web/local/files/Old_Spice_TH2014-1.mp4
+Web/local/files/Session 1 - 4th Speaker2.mp4
+Web/local/files/Session 1 - 9th Speaker2.mp4
+Web/favicon.ico
+Web/icons/
+Web/local/files/Employee Handbook_Revised_August 5.pdf
+Cron/mhs/Logs
+DapperGen/bin/Debug/*.vshost.*
+DapperGen/obj
+Cron/intercept/Logs
+site.cfg
+theme.cfg
+changelog.html
+Web/swagger/*
+UnitTests/TestResult.xml
+._*
+build.txt
+Web/build.html
+Genome.Tests/app.config
+UnitTests/App.config
+gitlast20.txt
+Cron/croninfo-authtoken.txt
+UnitTests/UnitTests.VisualState.xml
+Cron/croninfo-params.txt
+Cron/takeda/Logs/
+.vs/
+.idea
+npm-debug.log
+.merge_file_*
+Web/sw-assets.js
+
+###### Ignore Generated HTML Files ######
+**/*.html
+!WebSrc/components/ghost-loaders/*.html
+!ClientResources/**/*.html
+!Web/plugins/outlook/dist/index.html
+!Storybook/index.html
+
+Web/.well-known
+Utils/SimpleAuditViewGenerator/simple-audit-view-generator.exe.config
+Utils/SimpleAuditViewGenerator/*.sql
+Utils/Scripts/ChangeTheme/theme-params.txt
+Utils/Scripts/ChangeTheme/change-theme.log
+.vscode/settings.json
+branches-deleted.txt
+*.projitems
+/WebUtils/reports
+WebDist
+.yo-rc.json
+Web/temp
+*.vspx
+*.psess
+TestResult.xml
+fe-test-results.xml
+/manifest.json
+/Web/css/*
+Web/manifest.json
+QA/UITesting/.vscode
+QA/UITesting/qatest.bat
+QA/UITesting/NunitConsole3.bat
+
+
+# Personal Rakefile extensions.
+Rakefile-extensions.rb
+/WebUtils/tokens/favicons.token
+/Web/hashmanifest.js
+.vscode/launch.json
+
+/Web/administration/sample/rolapreport/index.shtml
+
+/Web/elements/layouts/standard_layout/index.shtml
+/Web/tickets/summary.shtml
+
+/Web/reports/user_dashboard/loadiframe.shtml
+
+/Web/sales/user/contact.shtml
+/Web/sales/user/index.shtml
+
+/Web/tasks/project/budget.shtml
+/Web/tasks/all_projects/_editform.shtml
+/Web/tasks/all_projects/edit.shtml
+/Web/tasks/project/client.shtml
+/Web/tasks/project/expenses/index.shtml
+/Web/tasks/project/file/search_explorer.shtml
+/Web/tasks/project/home.shtml
+/Web/tasks/project/mediabcr/index.shtml
+/Web/tasks/project/mediabcr/v1.shtml
+/Web/tasks/project/overhead/index.shtml
+/Web/tasks/project/status_report/attach.shtml
+/Web/tasks/project/status_report/edit.shtml
+/Web/tasks/project/survey.shtml
+/Web/tasks/project/test_report/create.shtml
+/Web/tasks/project/travel.shtml
+/Web/tasks/project/wiki/edit.shtml
+/Web/tasks/project/wiki/probation.shtml
+/Web/tasks/project/workorder/index.shtml
+/Web/tasks/suppliers/index.shtml
+/Web/tasks/ticket/apartifact.shtml
+/Web/tasks/ticket/billingitem.shtml
+/Web/tasks/ticket/expenseclaim.shtml
+/Web/tasks/ticket/expenseclaimdecision.shtml
+/Web/tasks/ticket/fileuploadfirefox.shtml
+/Web/tasks/ticket/list/edit.shtml
+/Web/tasks/ticket/opportunity.shtml
+/Web/tasks/ticket/purchaseorder.shtml
+/Web/tasks/ticket/sow_request_old/edit_top.shtml
+/Web/tasks/ticket/sow_request_old/index.shtml
+/Web/tasks/ticket/sow_request_old/print.shtml
+/Web/tasks/ticket/sow_request/print.shtml
+/Web/tasks/ticket/supplierinvoice.shtml
+/Web/tasks/ticket/supplierinvoicedecision.shtml
+/Web/tasks/ticket/travelrequest.shtml
+/Web/tasks/ticket/workorder.shtml
+
+/Web/tickets/clientbucket.shtml
+/Web/tickets/clientnewticket.shtml
+/Web/tickets/clientnewticketexec.shtml
+/Web/tickets/clienttickets.shtml
+/Web/tickets/clientview.shtml
+/Web/tickets/ExtranetReview.shtml
+
+/Web/tools/admin/cron/index.shtml
+/Web/tools/admin/emaillog.shtml
+/Web/tools/admin/metrics.shtml
+/Web/tools/admin/release/index.shtml
+/Web/tools/clientfeedback/index.shtml
+/Web/tools/clientfeedback/thanks.shtml
+/Web/tools/clientfeedback2/index.shtml
+/Web/tools/clientfeedback2/confirm.shtml
+/Web/tools/crmemail/powerpoint/index.shtml
+/Web/tools/events/photo_gallery/gallery.shtml
+/Web/tools/events/photo_gallery/uploadfirefox.shtml
+/Web/tools/expenseclaim/index.shtml
+/Web/tools/mobiledevices/index.shtml
+/Web/tools/reminder/_getreminder.shtml
+/Web/tools/survey/completedwos.shtml
+/Web/tools/survey/index.shtml
+/Web/tools/survey/view.shtml
+/Web/tools/travel/index.shtml
+/Web/tools/travel/v2new.shtml
+/Web/tools/triage/index.shtml
+/Web/tools/video/index.shtml
+/Web/tools/workteams/index.shtml
+/Web/outlook_plugin/dist
+
+# NPM Bundles
+packages/**/*.js
+!packages/eslint-plugin-sensei-rules/**/*.js
+packages/**/*.svg
+packages/**/*.txt
+# Shouldn't be necessary, but sometimes this file is being removed
+!packages/sensei-kit/package.json
+
+# Front-end unit test coverage
+WebUtils/coverage
+/Utils/GenerateManifest/packages/**/*
+
+# NDepend Output
+NDependOut/
+/packages/StyleCop.MSBuild.6.2.0
+
+.eslintcache
+
+# Back-end unit test coverage
+TestResults/
