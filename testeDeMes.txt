@@ -1,0 +1,22 @@
+Teste de Mesa 
+
+Nota1	Nota2	Nota3	 MA	   Conceito
+
+10,0	 5,0	 7,0	 6,9	   C
+ 9,0	10,0	 8,0	 8,8	   B
+ 6,0	 9,0	 3,0	 5,6	   D
+10,0	10,0	10,0	10,0	   A
+ 5,5	 6,0	 9,0	 7,3	   C
+
+Temos que:
+
+1º ME = (N1 + N2 + N3)/3
+2º MA = (N1 + 2N2 + 3N3 + ME)/7
+
+Ajuste na fórmula:
+
+3º    MA = (N1 + 2N2 + 3N3 + ME)/7
+     7MA = N1 + 2N2 + 3N3 + (N1 + N2 + N3)/3
+     7MA = (3N1 + 6N2 + 9N3 + (N1 + N2 + N3))/3
+    21MA = 4N1 + 7N2 + 10N3
+      MA = (4N1 + 7N2 + 10N3)/21
